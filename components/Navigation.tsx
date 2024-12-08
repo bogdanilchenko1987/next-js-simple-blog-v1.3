@@ -36,7 +36,7 @@ const Navigation = () => {
           href="#"
           onClick={() => signOut({ callbackUrl: "/" })}
         >
-          Sign Out
+          SignOut
         </Link>
       ) : (
         <Link
