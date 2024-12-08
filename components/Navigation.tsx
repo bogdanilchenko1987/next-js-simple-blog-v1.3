@@ -36,14 +36,14 @@ const Navigation = () => {
           href="#"
           onClick={() => signOut({ callbackUrl: "/" })}
         >
-          SignOut
+          Sign Out
         </Link>
       ) : (
         <Link
           className={pathname === "/signin" ? "active auth" : ""}
           href="/signin"
         >
-          SignIn
+          Sign In
         </Link>
       )}
     </>
